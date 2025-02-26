@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cars</title>
+  <link rel="stylesheet" href="./cars.css">
+  <style>
+    .car-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .car-list li,
+    .car-list li img {
+      width: 300px;
+    }
+
+    .car-image {
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="submit" class="js-form car-search">
+    <div class="car-group">
+      <input type="text" name="query" class="car-input" placeholder="Пошук" />
+    </div>
+    <div class="car-group">
+      <select name="options" class="car-select">
+        <option value="car">Марка</option>
+        <option value="type">Модель</option>
+      </select>
+    </div>
+    <button class="car-button">Пошук</button>
+  </form>
+
+  <ul class="js-list car-list"></ul>
+
+  <script src="./cars.js" type="module"></script>
+</body>
+
+</html>
