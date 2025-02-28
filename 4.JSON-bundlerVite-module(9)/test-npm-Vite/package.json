@@ -1,0 +1,12 @@
+{
+  "name": "test-npm-Vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "push": "git add . && git commit -m \"тестую push через npm\" && git push"
+  },
+  "keywords": [],
+  "author": "Igor Lyashenyk <igor4yk.lyashen4yk@gmail.com>",
+  "license": "ISC"
+}
