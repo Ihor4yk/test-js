@@ -1,0 +1,17 @@
+{
+  "name": "test-npm-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  "push": "git add . && git commit -m \"тестую push через npm\" && git push"
+}
+,
+  "keywords": [],
+  "author": "Igor Lyashenyk <igor4yk.lyashen4yk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "simplelightbox": "^2.14.3"
+  }
+}
